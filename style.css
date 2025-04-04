@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+    font-family: sans-serif;
+    background-color: rgba(105, 170, 170, 1);
+}
+.zae{
+  display:inline-block;
+  vertical-align:middle; 
+  margin-right: 45px; 
+}
+
+.h2flex{
+    font-size: 64px;
+    color: rgba(4, 195, 228, 1);
+    display: flex;
+    align-items: center;
+}
+
+header{
+    background-color: rgba(34, 36, 159, 1);
+    height: 639px;
+    padding: 45px;
+    box-sizing: border-box;
+}
+
+.containner-header{
+    display: flex;
+
+}
+
+nav{
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom:5px solid rgba(75, 255, 198, 1);
+    border-top: 5px solid rgba(75, 255, 198, 1);
+}
+
+
+.eba{
+    color: #33FF00;
+    background-color: #3873F2;
+    padding: 10px;
+    font-size: 32px;
+    text-decoration: none; 
+    border-radius: 30px;
+    border: 5px solid #4BFFC6;
+}
+
+h2 {
+    padding: 30px;
+    font-size: 50px;
+    color: rgba(75, 237, 255, 1);
+    text-align: center;
+}
+
+.container{
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+
+/* картка товара */
+.mal{
+    background-color: rgba(15, 88, 20, 1);
+    width: 600px;
+    height: 800px;
+    text-align:center ;
+    border: 1px dashed blue;
+    box-shadow: 10px 8px 35px 5px rgb(86, 255, 241);
+}
+
+/* переглянути */
+.didiv{
+    background-color: #114798;
+    color: #00D9FF;
+    padding: 5px;
+    font-size: 48px;
+    display: inline-block;
+    margin-top: 60px;
+    width: 350px;
+    text-align: center;
+
+}
+
+.didiv:hover {
+    font-size: 52px;
+    padding: 10px;
+    width: 370px;
+    border-radius: 15px;
+    border:10px double #0051CA;
+}
+.didiv:visited {
+    background-color: #0E397A;
+    color: #4de4fe;
+    opacity: 25%;
+}
+h3{
+    font-size: 48px;
+    color: #1551AC;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.list-produkts{
+    height: 550px;
+}
+.golovniy_spisok li a{
+    text-decoration: none;
+    color: #1551AC;
+}
+.golovniy_spisok{
+    font-size: 48px;
+    margin-left: 250px;
+    list-style: url(https://learn.logikaschool.com/uploads/student/1811426/679cd9732f3bf.png);
+}
+.rightimg{
+    display: inline-block;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    
+}
+main h1{
+    color: #00ffff;
+  }
+.rightimg h5{
+    color: #3CED48;
+    font-size: 55px;
+}
+
+footer{
+    background-color: rgba(56, 115, 242, 1);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+aside{
+    position: fixed;
+    background-color: #4de4fe;
+    right: 1px;
+    top: 50px;
+    width: 270px;
+    height: 320px;
+    border-radius: 25%;
+}
+aside p{
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    color: #0c6812;
+    top: 5%;
+    right: 15px;
+}
+.centerimg{
+    display: flex;
+    margin: auto;
+}
+.listcomplect{
+    height: 550px;
+}
+.listcomplect h3{
+    font-size: 42px;
+    color: #33FF00;
+}
+.listcomplect li{
+    font-size: 36px;
+    color: #6566A9;
+    margin: 100px;
+}
+p{
+    font-size: 36px;
+    text-align: center;
+    margin: 50px;
+    color: #FFC300;
+}
+.infa{
+    color:#194A78;
+    font-size: 42px;
+  }
+  .cartinki{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 300px;
+    height:1200px;
+    margin-bottom: 100px;
+  }
+  .perenos{
+    display:inline-block;
+    padding-bottom: 100px;
+  }
+  .niz{
+    position:realitive;
+    margin-bottom: 150px;
+    margin-right:300px;
+  }
+  .cartinki img{
+    border-radius:100%;
+  }
+  .aa{
+    text-decoration: none;
+    color: #22249F;
+    border-radius: 50px;
+    background-color: #00FFF2;
+    font-size: 36px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: block;
+    width: 348px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 250px;
+}
