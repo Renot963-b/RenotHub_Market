@@ -137,6 +137,9 @@ h3{
 .rightimg_a{
     text-decoration: none;
 }
+.rightimg_a:focus{
+    color:blue;
+}
 main h1{
     color: #00ffff;
   }
