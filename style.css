@@ -66,7 +66,7 @@ h2 {
 }
 
 .container{
-    height: 950px;
+    height: 800px;
     display: flex;
     justify-content: space-around;
     margin-bottom: 70px;
@@ -77,7 +77,7 @@ h2 {
 .mal{
     background-color: rgba(15, 88, 20, 1);
     width: 600px;
-    height: 950px;
+    height: 800px;
     text-align:center ;
     border: 1px dashed blue;
     box-shadow: 10px 8px 35px 5px rgb(86, 255, 241);
@@ -90,7 +90,7 @@ h2 {
     padding: 5px;
     font-size: 48px;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 60px;
     width: 350px;
     text-align: center;
     text-decoration: none;
@@ -137,17 +137,19 @@ h3{
 .rightimg_a{
     text-decoration: none;
 }
-.rightimg_a:focus{
-    color:blue;
-}
 main h1{
     color: #00ffff;
+    text-align: center;
+    font-size: 42px;
   }
 .rightimg h5{
     color: #3CED48;
     font-size: 55px;
 }
-
+.rightimg a:focus{
+    color: #2902b4;
+    text-shadow: 2px 2px 5px 10px rgb(87, 87, 255);
+}
 footer{
     background-color: rgba(56, 115, 242, 1);
     text-align: center;
@@ -161,7 +163,7 @@ aside{
     right: 1px;
     top: 50px;
     width: 270px;
-    height: 420px;
+    height: 320px;
     border-radius: 25%;
     display: flex;
     justify-content: center;
@@ -170,10 +172,8 @@ aside p{
     font-size: 32px;
     display: flex;
     align-items: center;
-
     color: #0c6812;
-
-
+    text-shadow:5px 5px 5px 5px #30ff3e;
 }
 .centerimg{
     display: flex;
